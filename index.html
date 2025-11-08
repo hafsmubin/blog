@@ -7,6 +7,8 @@
 ">
 
 
+<link rel="stylesheet" href="css/media.css">
+
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/stylesheet.css">
@@ -26,89 +28,50 @@
     <div class="website-content">
 
 
-   <header >
-        <div class="container">
-            <div class="row">
+  <header>
+  <nav class="navbar navbar-expand-lg bg-black text-center">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="sizzler project logo.png" alt="Logo" width="82" height="82">
+      </a>
 
-            <div class="col-6 mt-2">
-                <img src="sizzler project logo.png" alt="">
-            </div>
+      <!-- Toggler button (will stay on right) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation" style="    background-color: #b58c67ad;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="col-6 mt-2">
-                  <nav class="navbar navbar-expand-lg bg-black text-center ">
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Services</a></li>
 
-                        <button class="navbar-toggler" type="button" style="background-color: rgb(235, 221, 221);"  data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item ">
-                                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#"> Services</a>
-                                </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu" style="background-color:#0f0d0b">
+              <li><a class="dropdown-item text-white" href="#">Blog</a></li>
+              <li><a class="dropdown-item text-white" href="#">Our Chefs</a></li>
+              <li><a class="dropdown-item text-white" href="#">Images Gallery</a></li>
+              <li><a class="dropdown-item text-white" href="#">Video Gallery</a></li>
+              <li><a class="dropdown-item text-white" href="#">FAQs</a></li>
+            </ul>
+          </li>
 
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                         Pages 
-                                    </a>
-
-                                    <ul class="dropdown-menu" style="background-color: #0f0d0b">
-                                        <li><a class="dropdown-item text-white" style="background-color: #0e06008f"
-                                                href="#">Blog</a></li>
-                                        <li><a class="dropdown-item text-white" style="background-color: #060300"
-                                                href="#">Our chefs </a></li>
-                                        <li><a class="dropdown-item text-white" style="background-color: #080400"
-                                                href="#">Images gallery </a></li>
-                                        <li><a class="dropdown-item text-white" style="background-color: #0b0500"
-                                                href="#">Video gallery</a></li>
-                                        <li><a class="dropdown-item text-white" style="background-color: #130801"
-                                                href="#">FAQS</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Menu </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#"> Contact</a>
-                                </li>
-                                
-
-                            </ul>
-
-
-
-                            </ul>
-                        </div>
-
-                    </nav>
-
-            </div>
-   
-            </div>
-
-
-        </div>
-
-    
-        
-    </header>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
     <div class="fix">
       <div class="bc">
 
-        <h1  data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="100">latest blog
+        <h1>latest blog
 
 </h1>
       </div>
